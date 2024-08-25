@@ -18,7 +18,7 @@ function Nav() {
     <nav className="bg-white text-gray-800 shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Link
-          to="/"
+          to="/vivid/"
           className="text-5xl font-bold flex flex-col items-center brandname"
           onClick={closeMenu} // Close menu on link click
         >
