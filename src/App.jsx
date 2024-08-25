@@ -20,7 +20,7 @@ export default function App() {
 
         <Nav/>
         <Routes>
-          <Route exact path="/" element={<Index />} />
+          <Route exact path="/vivid/" element={<Index />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/new-arrivals" element={<NewArrivals />} />
           <Route path="/products/lighting" element={<Lighting/>} />
