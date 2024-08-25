@@ -203,21 +203,21 @@ const Index = () => {
       description: 'Boasting an elegantly curved silhouette with rich rubberwood, the Loha Armchair.',
       price: '$40.09',
       designer: 'By: Luha Azure',
-      imageUrl: '../public/UsedPics/Loha_Azure_Blue_Velvet___Rattan_Armchair-removebg-preview.png',
+      imageUrl: 'https://i.pinimg.com/736x/f0/93/02/f09302710e39c9602631053b11a775c5.jpg',
     },
     {
       title: 'Bedside Table',
       description: 'A sleek, modern design for a comfortable experience.',
       price: '$299.99',
       designer: 'BY: Oliver Bonas',
-      imageUrl: '../public/UsedPics/Kinship_Rattan_Bedside_Table___Oliver_Bonas-removebg-preview.png',
+      imageUrl: 'https://i.pinimg.com/736x/d2/16/2e/d2162ec3e06cb1ddc5b32a3a9191400c.jpg',
     },
     {
       title: 'Storage Ottomans',
       description: 'Maximize the space in your home with our collection of storage ottomans.',
       price: '$120.50',
       designer: 'BY: Oliver Bonas',
-      imageUrl: '../public/UsedPics/Storage_Ottomans__Trunks___Benches___Oliver_Bonas-removebg-preview.png',
+      imageUrl: 'https://i.pinimg.com/736x/a5/cb/ac/a5cbac449119a8877633c1d0dfd9ec92.jpg',
     },
   ];
 
