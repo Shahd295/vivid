@@ -9,49 +9,41 @@ const NewArrivals = () => {
   // Example products array
   const products = [
     {
-    
       name: 'Bedside Table',
       price: '£110.00',
       imageUrl: 'https://i.pinimg.com/564x/0b/fd/d8/0bfdd8956681a0e92ed1bdf74e46ed93.jpg',
     },
     {
-   
       name: 'Book Magazine Holder',
       price: '£89',
       imageUrl: 'https://i.pinimg.com/564x/29/fc/f9/29fcf9b22183b67dad68dd556e6ef06f.jpg',
     },
     {
-
       name: 'Shayd Table Lamp, Sand',
       price: '£122',
       imageUrl: 'https://i.pinimg.com/564x/05/db/ca/05dbcafe28ecbffad5eaad94eb8ecad4.jpg',
     },
     {
-    
       name: 'Springdell Rounded Bench Cream Faux',
       price: '£330',
       imageUrl: 'https://i.pinimg.com/564x/24/85/3f/24853f1bc69c12312eac296272884fa6.jpg',
     },
     {
-    
       name: 'Bamboo Chandelier Retro',
       price: '£270',
       imageUrl: 'https://i.pinimg.com/564x/85/c5/48/85c5489cf5bc11520eb14d73ed251a87.jpg',
     },
     {
-    
       name: 'Velvet, Leather & Linen Armchairs',
       price: '£560',
       imageUrl: 'https://i.pinimg.com/564x/25/fb/08/25fb08081b09e6cf6de828f9932b4ddc.jpg',
     },
     {
-    
       name: 'Pink Mango Wood Desk & Dressing Table',
       price: '£700',
       imageUrl: 'https://i.pinimg.com/564x/5f/78/b4/5f78b4238402b13c61b4965254b44948.jpg',
     },
-     {
-    
+    {
       name: 'Tulip Chair',
       price: '£265',
       imageUrl: 'https://i.pinimg.com/564x/93/f1/b0/93f1b076eefaafa19408a3404c4bfce8.jpg',
@@ -95,6 +87,9 @@ const NewArrivals = () => {
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Trigger it on initial render
 
+    // Scroll to the top when the component is mounted
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -108,8 +103,8 @@ const NewArrivals = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <h1 className="text-4xl font-bold tracking-tight leading-tight">
-          FRESH <span className=" s-title font-sans italic  font-light">Finds</span> UNVEILING <br />
-          New <span  className="  s-title font-sans italic font-light">Arrivals</span>
+          FRESH <span className=" s-title font-sans italic font-light">Finds</span> UNVEILING <br />
+          New <span className=" s-title font-sans italic font-light">Arrivals</span>
         </h1>
       </motion.div>
 

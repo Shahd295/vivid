@@ -30,7 +30,7 @@ function Nav() {
 
         <div className="hidden md:flex md:items-center md:gap-8">
           <Link
-            to="/"
+            to="/vivid/"
             className="py-2 px-4 text-lg hover:bg-gray-100 rounded transition duration-300"
           >
             Home
@@ -220,7 +220,7 @@ function Nav() {
             </svg>
           </button>
           <Link
-            to="/"
+            to="/vivid/"
             className="block py-2 text-lg text-gray-800 hover:bg-gray-100 rounded transition duration-300 mb-2"
             onClick={closeMenu} // Close menu on link click
           >
